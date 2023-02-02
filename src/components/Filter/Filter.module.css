@@ -1,0 +1,20 @@
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input {
+
+  font-size: 16px;
+  max-width: 200px;
+  padding: 4px;
+}
+
+.input:hover,
+.input:focus {
+    border: dotted 1px lawngreen;
+}
+
+.container {
+    display: grid;
+    gap: 16px;
+    margin-left: 20px;
+}

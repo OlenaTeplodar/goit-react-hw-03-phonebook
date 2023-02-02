@@ -1,0 +1,49 @@
+.wrapper {
+  display: grid;
+  gap: 28px;
+  }
+.contactFormBlock {
+  border: 1px solid;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  gap: 10px;
+  font-size: 24px;
+  background-color: rgb(240, 229, 250);
+}
+
+.title {
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.iput:hover {
+  border: dotted 1px rgb(247, 167, 220) ;
+}
+
+.btnContactAdd {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btnContactAdd:hover {
+  background-color: rgb(247, 167, 220);
+}
+
+.container {
+  display: grid;
+  gap: 16px;
+}
