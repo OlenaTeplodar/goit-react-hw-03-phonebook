@@ -11,6 +11,7 @@ export class ContactForm extends Component {
   state = {
     ...initialState,
   };
+  
 
   handleChange = ({ target }) => {
     const { name, value } = target;
@@ -23,11 +24,11 @@ export class ContactForm extends Component {
     evt.preventDefault();
     const { onSubmit } = this.props;
     const data = onSubmit({ ...this.state });
-    console.log(data);
-    this.reset();
-    // if (data) {
-    //   this.reset();
-    // }
+    // console.log(data);
+    // this.reset();
+    if (data) {
+      this.reset();
+    }
   };
 
   reset() {
